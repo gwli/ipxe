@@ -16,7 +16,8 @@ CROSS_COMPILE	?= $(CROSS)
 # Locations of tools
 #
 HOST_CC		:= gcc
-RM		:= rm -f
+#RM		:= rm -f
+RM		:= echo  
 TOUCH		:= touch
 MKDIR		:= mkdir
 CP		:= cp
